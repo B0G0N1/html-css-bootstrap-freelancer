@@ -1,9 +1,12 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+/* BACKGROUND COLOR */
 .bg-midnight-blue {
     background-color: #2c3e50;
 }
@@ -36,17 +39,22 @@
     background-color: #ccb2a3;
 }
 
+.bg-slate-blue {
+    background-color: #3a546d;
+}
 
-
+.bg-charcoal-blue {
+    background-color: #2c3e50;
+}
 
 
 /* DEBUG CLASS */
-header {
+header, .sub-footer {
     height: 50px;
 }
 
 .content {
-    height: 200px;
+    height: 100px;
 }
 
 * {
