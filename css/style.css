@@ -44,6 +44,11 @@
 header {
     height: 50px;
 }
-.container :nth-of-type(1) {
+
+.content {
     height: 200px;
+}
+
+* {
+    border: 1px dashed red;
 }
