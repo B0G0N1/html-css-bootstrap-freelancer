@@ -15,49 +15,21 @@
     background-color: #1abc9c;
 }
 
-.bg-rosewood {
-    background-color: #ba4b63;
-}
 
-.bg-pacific-blue {
-    background-color: #1ea4b6;
-}
-
-.bg-onyx {
-    background-color: #140f0f;
-}
-
-.bg-cerulean {
-    background-color: #1c83c1;
-}
-
-.bg-cobalt-blue {
-    background-color: #0e38b5;
-}
-
-.bg-desert-sand {
-    background-color: #ccb2a3;
-}
-
-.bg-slate-blue {
-    background-color: #3a546d;
-}
-
-.bg-charcoal-blue {
-    background-color: #2c3e50;
-}
-
+/* CLASS */
 .lines:after,
 .lines:before {
     content: '';
-    width: 200px;
+    width: 20%;
     height: 3px;
     display: inline-block;
     vertical-align: middle;
 }
 
 .presentation .lines:after,
-.presentation .lines:before {
+.presentation .lines:before,
+.about .lines:after,
+.about .lines:before {
     background-color: white;
 }
 

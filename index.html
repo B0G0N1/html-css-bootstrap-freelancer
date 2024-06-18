@@ -40,7 +40,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="content d-flex flex-column justify-content-center align-items-center py-3 text-white">
+                        <div class="content text-center py-3 text-white">
                             <img src="./img/avatar.svg" class="w-25" alt="avatar">
                             <h2 class="display-4 fw-bold my-2">START BOOTSTRAP</h2>
                             <span class="lines">
@@ -57,7 +57,7 @@
             <div class="container">
                 <div class="row g-2">
                     <div class="col-12">
-                        <div class="content d-flex flex-column justify-content-center align-items-center">
+                        <div class="content text-center">
                             <h2 class="fs-1 fw-bold my-2">PORTFOLIO</h2>
                             <span class="lines">
                                 <i class="fa-solid fa-star mb-3 mx-4 fs-4"></i>
@@ -98,56 +98,61 @@
             </div>
         </div>
         <!-- About -->
-        <div class="about">
-            <div class="bg-turquoise">
-                <div class="container">
-                    <div class="row d-flex flex-column justify-content-center align-items-center">
-                        <div class="col-12">
-                            <div class="content"></div>
+        <div class="about bg-turquoise py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="content text-center text-white">
+                            <h2 class="fs-1 fw-bold my-2">ABOUT</h2>
+                            <span class="lines">
+                                <i class="fa-solid fa-star mb-4 mx-4 fs-4"></i>
+                            </span>
                         </div>
-                        <div class="col-12 col-md-6">
-                            <div class="content text">
-                                <p>Freelancer is a free bootstrap theme created by Start
-                                    Bootstrap. The download includes the complete
-                                    source files including HTML, CSS, and JavaScript as
-                                    well as optional LESS stylesheets for easy
-                                    customization.</p>
-                            </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="content text-white p-3">
+                            <p>Freelancer is a free bootstrap theme created by Start
+                                Bootstrap. The download includes the complete
+                                source files including HTML, CSS, and JavaScript as
+                                well as optional LESS stylesheets for easy
+                                customization.</p>
                         </div>
-                        <div class="col-12 col-md-6">
-                            <div class="content">
-                                <p>Whether you're a student looking to showcase your
-                                    work, a professional looking to attract clients, or a
-                                    graphic artist looking to share your projects, this
-                                    template is the perfect starting point!</p>
-                            </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="content text-white p-3">
+                            <p>Whether you're a student looking to showcase your
+                                work, a professional looking to attract clients, or a
+                                graphic artist looking to share your projects, this
+                                template is the perfect starting point!</p>
                         </div>
-                        <div class="button" class="btn"><i class="fa-solid fa-download"></i>Download</div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button type="button" class="btn btn-outline-light">
+                            <i class="fa-solid fa-download"></i> Download
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Contact Me -->
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="content"></div>
-                </div>
-                <div class="col-12">
-                    <div class="content"></div>
-                </div>
-                <div class="col-12">
-                    <div class="content"></div>
-                </div>
-                <div class="col-12">
-                    <div class="content"></div>
-                </div>
-                <div class="col-12">
-                    <div class="content"></div>
-                </div>
-                <div class="col-12">
-                    <div class="content"></div>
-                </div>
+        <div class="contact-me py-5">
+            <div class="container">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
             </div>
         </div>
     </main>
